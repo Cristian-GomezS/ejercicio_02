@@ -1,0 +1,24 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+body h1 {
+    text-align: center;
+}
+ body form div {
+float: left;
+margin: auto;
+padding: 10px;
+ }
+
+ body form #btn{
+     padding: 10px;
+     color: black;
+     border-radius: 1px;
+     border: 2px solid black;
+     background-color: white;
+ }
