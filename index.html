@@ -7,47 +7,45 @@
     <title>ejercicio_02</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <script src="js/listatareas.js"></script>
 </head>
 
 <body>
-
-    <h1>AGENDA PERSONAL</h1>
-
-    <aside>
-        <form action="">
-            <div>
-                <label for="name">Tarea</label>
-                <input type="text" id="name" placeholder="Introducir tarea">
-            </div>
-
-            <div>
-                <label for="name">Prioridad</label>
-                <select name="" id="">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <input type="submit" value="Guardar" id="btn">
-        </form>
-    </aside>
-
-    <hr>
-
-    <div class="filtro">
-        <input type="text">
+    <div>
+        <h1>AGENDA PERSONAL</h1>
     </div>
 
-    <section>
-        <div class="felx">
-
+    <div class="wrapper">
+        <div class="formulario">
+            <input type="text" id="tarea" placeholder="crear tarea">
+            <select name="" id="prioridad">
+                <option value="">Seleccionar prioridad</option>
+                <option value="baja">baja</option>
+                <option value="media">media</option>
+                <option value="alta">alta</option>
+            </select>
+            <button id="guardar">Guardar</button>
         </div>
-    </section>
 
-    <script src="js/eventos.js"></script>
-    <script src="js/funciones.js"></script>
+        <div class="tareas">
+            <select name="" id="prioridadFiltro">
+                <option value="">Seleccionar prioridad</option>
+                <option value="baja">urgente</option>
+                <option value="media">diario</option>
+                <option value="alta">mensual</option>
+            </select>
+            <input type="text" id="buscador" placeholder="buscar tarea">
+        </div>
+
+        <div class="listaTareas">
+            <!--Este es el espacio para las tareas-->
+        </div>
+
+
+        <script src="js/funciones.js"></script>
+        <script src="js/eventos.js"></script>
 </body>
 
 </html>

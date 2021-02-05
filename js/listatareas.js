@@ -2,24 +2,24 @@ let tareas = new Array(
     {
         id: 1,
         tarea: 'comprar',
-        prioridad: 2,
+        prioridad: 'media',
     },
 
     {
         id: 2,
         tarea: 'estudiar',
-        prioridad: 3,
+        prioridad: 'alta',
     },
 
     {
         id: 3,
         tarea: 'salir',
-        prioridad: 1,
+        prioridad: 'baja',
     },
 
     {
         id: 4,
         tarea: 'pagar el alquiler',
-        prioridad: 3,
+        prioridad: 'alta',
     },
 )
